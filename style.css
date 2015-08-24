@@ -1,0 +1,56 @@
+.header {
+	height:150px;
+	width: 100%;
+	background-color:#e3e3e3;
+	border-bottom:2px solid #e1e1e1;
+}
+.container {
+	background-color:#f3f3f3;
+	padding: 0;	
+}
+.row { 
+	padding:0;
+	margin:0;
+}
+
+.page-copy-img img {
+	height:250px;
+	width: 250px;
+}
+
+
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .sidebar-nav {
+	margin-top:100px;
+	}
+}
+
+/* Content pages */
+
+#content-profile {
+	display: block;
+}
+
+#content-portfolio, #content-process, #content-contact, #content-cv {
+	display: none;
+}
