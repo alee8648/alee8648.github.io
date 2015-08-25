@@ -21,21 +21,25 @@ body {
   background-color: #e3e3e3;
   background-image: url(https://raw.githubusercontent.com/alee8648/alee8648.github.io/165f9e89235bdae1252d89f10276478bf482722d/images/small_steps.png);
   background-attachment: fixed;
-  text-align: justify;
+  text-align: left;
   color:#555;
+  font-size: 17px;
+  line-height: 200% !important;
 }
 
 
 a {
-  color:#22789a;
+  color:#FF0052;
 }
 
 .header {
   height:150px;
 /*  width: 100%;*/
-  background-color:#005689;
+  background-color:#3F1E46;
+/*  background: linear-gradient(to left, #3F1E46, #e3e3e3 );*/
   text-align: right;
   color: #fff;
+  font-family: impact, charcoal, sans-serif;
 }
 
 .header h1 {
@@ -52,12 +56,14 @@ a {
 }
 
 .page-header {
-  background-color: #AAD8F1;
+/*  background-color: #AAD8F1;*/
+  background-color: #fff;
   padding:0;
   margin-top: 0;
 /*  margin-bottom: 15px;*/
   overflow: auto;
-  color:#fff;
+  color:#3F1E46;
+  font-family: impact, charcoal, sans-serif
 }
 
 .page-body {
@@ -73,7 +79,8 @@ a {
 }
 
 h3 {
-  color:#005689;
+  color:#FF0052;
+  padding-bottom: 10px;
 }
 /* make sidebar nav vertical */
 
@@ -106,6 +113,10 @@ h3 {
   margin-top:20px;
   margin-bottom: 100px;
 }
+}
+
+.sidebar-nav {
+  font-family: impact, charcoal ,sans-serif;
 }
 
 
