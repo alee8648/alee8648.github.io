@@ -5,19 +5,17 @@ var main = function() {
 	$(".nav a").click(function() {
 
 		var buttonClicked = this.id
-		var newActiveContent = buttonClicked.substring(4, buttonClicked.length)
-		if (newActiveContent == activeContent) {
+		var previousContent = activeContent
+		newContent = buttonClicked.substring(4, buttonClicked.length)
+		if (newContent == previousContent) {
 
 		} else {
-			$("#nav-" + newActiveContent).parent('li').addClass("active");
-			$("#nav-" + activeContent).parent('li').removeClass("active");
-			$("#content-" + activeContent).fadeToggle("fast", function () {
-				activeContent = newActiveContent;
-				$("#content-" + activeContent).fadeToggle();
-			});
-
-		}
-
+			$("#nav-" + newContent).parent('li').addClass("active");
+			$("#nav-" + previousContent).parent('li').removeClass("active");
+			$("#content-" + previousContent).toggle();
+			$("#content-" + newContent).toggle();
+			activeContent = newContent;
+		};
 	});
 
 };
