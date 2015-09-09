@@ -15,7 +15,7 @@
 <body>
 
 
-	<div class="container site-body">
+	<div class="container site-body" id="body-container">
 
 		<!-- Site header -->
 
@@ -28,24 +28,25 @@
 		<!-- Navigation -->
 
 	<!-- 			<div class="sidebar-nav"> -->
-		<div class="navbar navbar-default" role="navigation">
-			<div class="navbar-header">
-	<!-- 						<a href="#" class="navbar-brand">Adam Lee</a> -->
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="glyphicon glyphicon-menu-hamburger"></span><span class="sr-only">Toggle navigation</span></button>
-			</div>
-			<div class="collapse navbar-collapse">
-				<nav>
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="#" id="nav-profile">profile</a></li>
-						<li><a href="#" id="nav-portfolio">portfolio</a></li>
-						<li><a href="#" id="nav-process">building this site</a></li>
-						<li><a href="#" id="nav-cv">curriculum vitae</a></li>
-						<li><a href="#" id="nav-contact">contact</a></li>
-					</ul>
-				</nav>
+		<div id="nav-wrapper col-sm-12">
+			<div class="navbar navbar-default" role="navigation" id="nav">
+				<div class="navbar-header">
+		<!-- 						<a href="#" class="navbar-brand">Adam Lee</a> -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="glyphicon glyphicon-menu-hamburger"></span><span class="sr-only">Toggle navigation</span></button>
+				</div>
+				<div class="collapse navbar-collapse">
+					<nav>
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#" id="nav-profile">profile</a></li>
+							<li><a href="#" id="nav-portfolio">portfolio</a></li>
+							<li><a href="#" id="nav-process">building this site</a></li>
+							<li><a href="#" id="nav-cv">curriculum vitae</a></li>
+							<li><a href="#" id="nav-contact">contact</a></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
 		</div>
-	
 
 	
 		<!-- Page header -->
@@ -58,17 +59,17 @@
 
 		<!-- Page body -->
 
-		<div class="row inset-box-row">
-			<div class="col-xs-3" inset-image"">
+<!-- 		<div class="row inset-box-row">
+			<div class="col-xs-2" inset-image"">
 				<div class="inset-image">
 					<img src="https://github.com/alee8648/alee8648.github.io/blob/b58513f6302228e58bd4d8382549c571594428f9/images/adam-lee-portrait2.png?raw=true" alt="Adam Lee's Portrait" class="img-responsive">
 				</div>
 			</div>
 
-			<div class="col-xs-9 inset-box">
+ 			<div class="col-xs-10 inset-box">
 				Junior web developer with a marketing background and a strong degree looking to expand skill-set in the right business!
 			</div>
-		</div>
+		</div> -->
 <!-- 
 		<div class="row inset-box-row">
 				<div class="inset-image">
@@ -86,7 +87,11 @@
 
 			<!-- Page content -->
 
-			<div class="col-sm-2"></div>
+			<div class="col-sm-2">
+				<div class="inset-image">
+					<img src="https://github.com/alee8648/alee8648.github.io/blob/b58513f6302228e58bd4d8382549c571594428f9/images/adam-lee-portrait2.png?raw=true" alt="Adam Lee's Portrait" class="img-responsive">
+				</div>
+			</div>
 
 			<div class="col-sm-8">
 
@@ -100,20 +105,27 @@
 
 								<div class="page-content-p">
 
+									<h3>Why employ me?</h3>
 
+									<p>I'm a Junior Web Developer with exceptional learning skills who can quickly get up to pace with your own working practices and make a positive impact on your business. I've got a <strong>First Class degree from Durham University</strong> in modern languages, Spanish and Italian, and now I'm applying those logical, analytical, and creative skills to the digital sphere. What's more, my working experience with online retailers has given me direct insight into a Web Agency's customer's needs - whether it's SEO, conversion rates, front- and back-end ease of use, and practicality.</p>
+
+									<p>All in all, with my skills and background I'm ready to springboard into something new and find the right company to benefit from my enthusiasm!</p>
+
+									<p>Be sure to <a href="#">check out my CV</a> for a summary of my work experience, education, and skills - but take time to have a read of this profile and <a href="#">the process behind building this site</a> for an insight into my mindset and goals.</p>
 
 									<h3>Quick background</h3>
 
-									<p>I'm a modern languages graduate with a bunch of (nerdy) interests, and whilst I've worked in marketing for a number of years, now I'm taking the <strong>exciting</strong> leap into Web development!</p>
+									<p>I'm a modern languages graduate with a bunch of (nerdy) interests, and whilst I've worked in marketing for a few years, now I'm taking a leap into Web development!</p>
 
 									
 
 									<p>Teenage forays into HTML during the <samp>&lt;table&gt;</samp> heydays of the Naughties and modding the videogame <em>Warcraft III</em> piqued my early interest and understanding of all things Code-y; but an uninspiring GCSE ICT course making spreadsheets for clothes stores led me to prefer a more human type of 'code' - languages.</p>
-									<hr>
-									<h3>A degree in the wrong type of language</h3>
 
-									<p>One First Class Honours Degree from Durham University in Spanish and Italian later and I'm back making spreadsheets for a clothes store, albeit with a sprinkling of VBA. But it's Web Development I want to be doing. So I set about doing it.</p>
+									<p>One First Class Honours Degree from Durham University in Spanish and Italian later and I'm back making spreadsheets for a clothes store, albeit with a hefty amount of VBA.</p>
+									
+									<p>But for the last 4 months I've been teaching myself HTML, CSS, JavaScript and related technologies whilst building a fully functional WooCommerce site for my brother's casual clothing brand, University of Whatever. The experience has been both enjoyable and formative, and I can't wait to get more involved in the industry.</p>
 
+								
 									<div class="body-image">
 										<div class="body-image-inset">
 											<p>Durham Cathedral - home to Defense against the Dark Arts classes</p>
@@ -126,7 +138,8 @@
 
 									<h3>A future in development</h3>
 
-									<p>Aside from making swish spreadsheets to manage stock, Amazon listings, and SEO content for my brother's fashion brand <a href="http://www.universityofwhatever.co.uk/" target="_blank">University of Whatever</a>, I also built the website. A baptism by fire, perhaps, but doing everything from installing WordPress on the server to styling the <a href="http://www.universityofwhatever.co.uk" target="_blank">About Us</a> page gave me a broad experience in managing an eCommerce site based on a CMS as well as using web languages HTML and CSS.</p>
+									<p>Aside from making swish spreadsheets to manage stock, Amazon listings, and SEO content for my brother's fashion brand <a href="http://www.universityofwhatever.co.uk/" target="_blank">University of Whatever</a>, I also built their shiny new website. A baptism by fire for sure, doing everything from installing WordPress on the server to using custom CSS to style the <a href="http://www.universityofwhatever.co.uk" target="_blank">About Us</a> page, manipulating back-end data import plugins and poking around in PHP. At times the process was challenging and cryptic, but as a result I've gained a broad experience in managing an eCommerce site based on a CMS, as well as using web languages HTML and CSS.</p>
+
 									<p>Meanwhile I've been studying an <a href="https://www.udemy.com/complete-web-developer-course/" target="_blank">online course created by Rob Percival</a> to get a more in-depth knowledge of key languages, concepts, and workflow processes within web development - including HTML5, CSS3, JavaScript, jQuery, Bootstrap, PHP, and MySQL.</p>
 
 									<div class="body-image">
@@ -177,51 +190,229 @@
 
 						<div id="content-process">
 
-							<div class="page-header">
+<!-- 							<div class="page-header">
 								<h1 class="page-header-text" id="page-header-process">how I built this site</h1>
-							</div>
+							</div> -->
 
-							<div class="page-content-p col-md-8">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium reprehenderit harum atque numquam nostrum, magnam, accusamus dolores quisquam voluptas? Vero consectetur, nisi minima consequuntur facere sed hic dolorum laboriosam.</p>
+							<div class="page-content-p">
+
+								<h3>Why the explanation?</h3>
+
+								<p>I'm never happy with simply muddling through a process to get to the end result, so I've been careful in building my sites to gain an insight into what's going on as I do it. And how better to present my new webpage knowledge than in a webpage?</p>
+
+								<h3>Stage 1: Concept and Content Plan</h3>
+
+								<p>So I want to make a website, but what exactly will go in it? It's important that the content shapes the design and not vice versa, so my first step was committing my ideas to pen and paper. A simple step, but referring back to these notes continuously throughout the rest of the process proved its worth.</p>
+
+								<h3>Stage 2: Photoshop Wireframes</h3>
+
+								<p>I took to Photoshop to quickly sketch out the different areas of the site using simple coloured boxes to represent <samp>&lt;div&gt;</samp> elements, and naming the layers with the classes I would eventually use when coding. Making a responsive site, I made 3 different versions of the wireframes to demonstrate to myself how the site should adapt to the screen size. My design would ultimately change, but having that reference for class names, and a PSD file I could go back and play around with (and build my visual mockup on) was invaluable.</p>
+
+								<div class="body-image">
+									<div class="body-image-inset">
+										<p>Later style and practicality would better inform my boxy decisions</p>
+									</div>
+
+									<img src="images/adam-lee-portfolio-wireframes.jpg" class="img-responsive" alt="The wireframes used on the site">
+
+										
+								</div>
+
+								<h3>Stage 3: Visual Mock-up</h3>
+
+								<p>Based on the wireframes, I began to add visual elements such as images, text, colours, and backgrounds to provide a goal to code towards. However, I admit I cheated by building the wireframes in code first to see how they'd look with Bootstrap's default styling. Or maybe that's not cheating at all?</p>
+
+								<p>But my first visual mock-up got scrapped almost completely, its definite estate agent flavour not coinciding with my design goals. The new look is fresher, more original, and appealing to the eye, and it's this second visual mock-up I've been building on since.</p>
+
+								<div class="body-image">
+									<div class="body-image-inset">
+										<p>I like purple but... this resembled the worst of the Brighton letting agents I've experienced recently</p>
+									</div>
+
+									<img src="images/adam-portfolio-rejected-style.jpg" class="img-responsive" alt="The site's original rejected style">
+
+										
+								</div>
+
+								<h3>Stage 4: Content and Graphics</h3>
+
+								<p>As content-writer and selfie-photographer for my own site I had to take some time out to actually write the stuff. Until the text and images were complete I used everyone's favourite fake Latin placeholder text and some fetching photographs of stacks of folders.</p>
+
+								<p>I don't purport to be a graphic designer, but a working knowledge of Photoshop helped me to get the graphics I wanted for the site - including designing my own background.</p>
+
+								<h3>Stage 5: HTML &amp; JavaScript</h3>
+
+								<p>Leaving the bulk of the styling work aside, I started coding by building the <samp>&lt;div&gt;</samp> framework using the classes from my wireframes PSD file and the content titles from my content plan. Knowing I would be using Bootstrap's grid system, I added the relevant container, row, and col- classes to create a responsive site before beginning on the true styling.</p>
+
+								<p>With the goal of making the site functional before making it pretty, I also coded the JavaScript to allow switching between the content 'tabs'. This was achieved by giving the navigation buttons ids then using substrings to find the relevant content to display.</p>
+
+								
+
+								<h3>Stage 6: CSS</h3>
+
+								<p>Some design elements from my visual mock-up were surprisingly easy to lift and apply in CSS, such as the gradient on the header, but others took a bit more fiddling and learning to get right - such as the image caption 'insets' that required different styling for different screen sizes to maintain a satisfying responsive experience.</p>
+
+								<p>Now that I'd converted my mock-up into a website, I iterated on various elements of my design to make more informed decisions now that I could test them in the more natural setting of the browser.</p>
+
+								<div class="body-image">
+									<div class="body-image-inset">
+										<p>I dare say there are more tricks to learn beyond my own brand of code organisation</p>
+									</div>
+
+									<img src="images/code-in-progress.jpg" class="img-responsive" alt="Code in progress">
+
+										
+								</div>
+
+								<p>To write my code I used Sublime Text 3, becoming a fan of the Emmet package for shorthand HTML typing whilst at it. I'm a shortcut junkie, and these tools scratched an itch when it came to make the process of code writing more efficient.</p>
+
+								<h3>Stage 7: Hosting</h3>
+
+								<p>Turns out Adam Lee is a fairly popular name, but the snazzy new .xyz domain was available - hopefully all the snazzier for Google's adoption of it. As I'd been keeping my site backed up and up-to-date on GitHub, hosting it there as a personal portfolio page made sense. And of course, it means <a href="https://github.com/alee8648">all the code is available publicly</a> there now, should you want to see it!</p>
+
+								<h3>Stage 8: Future considerations</h3>
+
+								<p>As a fledgling Web Developer, I'm well aware of my limitations. Keeping the site restricted to one HTML document made it easy to edit site-wide elements, such as the header and navigation, but in future the use of <strong>PHP</strong> would be a more comprehensive solution. Splitting the content to different pages would make for a more logical URL structure and avoid too much content being kept hidden with CSS.</p>
+
+								<p>I also hope to develop the JavaScript and jQuery functions of the page to create a more interactive and appealing experience. For example, animating the switch between tabs would create a smoother user experience, as would more dynamic captions and page insets. As a gamer and UX snob, I find the feel of a website/interface to be a driving factor in how long I'm willing to spend using it. Identifying exactly what makes these experiences so satisfying is one of the most exciting aspects of web development to me.</p>
+
+								<p>As I continue to learn more, I intend that the site grow with me as a demonstration of my abilities.</p>
+
 							</div>
-							<div class="page-copy-img col-md-4"><img src="http://marmaladeoc.com/wp-content/uploads/2014/02/stack-of-papers-537x350.jpg" alt="image1"></div>
-							<div class="page-content-p col-md-8">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sit veniam magnam odio, voluptatem consectetur laudantium tempore. Explicabo dolorem, veniam facere sit eius architecto ipsam repudiandae consequatur reprehenderit a iste.</p>
-							</div>
-							<div class="page-copy-img col-md-4"><img src="http://marmaladeoc.com/wp-content/uploads/2014/02/stack-of-papers-537x350.jpg" alt="image2"></div>
 						</div>
 
 
 						<div id="content-cv">
 
-							<div class="page-header">
-								<h1 class="page-header-text" id="page-header-cv">curriculum vitae</h1>
-							</div>
+							<h3>In short</h3>
 
-							<div class="page-content-p col-md-8">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium reprehenderit harum atque numquam nostrum, magnam, accusamus dolores quisquam voluptas? Vero consectetur, nisi minima consequuntur facere sed hic dolorum laboriosam.</p>
-							</div>
-							<div class="page-copy-img col-md-4"><img src="http://marmaladeoc.com/wp-content/uploads/2014/02/stack-of-papers-537x350.jpg" alt="image1"></div>
-							<div class="page-content-p col-md-8">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sit veniam magnam odio, voluptatem consectetur laudantium tempore. Explicabo dolorem, veniam facere sit eius architecto ipsam repudiandae consequatur reprehenderit a iste.</p>
-							</div>
-							<div class="page-copy-img col-md-4"><img src="http://marmaladeoc.com/wp-content/uploads/2014/02/stack-of-papers-537x350.jpg" alt="image2"></div>
+							<p>Fast-learning web developer with a background in marketing, a First Class Honours degree from Durham University, and a knack for all things digital. Having taught myself HTML, CSS, and WordPress to produce a fully functioning eCommerce site for a client, I'm looking to grow within a professional agency whilst expanding my skill set.</p>
+
+							<h3>Education</h3>
+
+							<p><strong>First Class BA(Hons) Modern Languages and Cultures (Spanish &amp; Italian)</strong><br>
+
+							<em>University of DurhamOct 2009 - Jun 2013</em>
+
+							<ul>
+								<li>Particularly impressive results (80%+) in well-researched and professionally written critical analysis essays – including creatively inclined work such as academic film reviews and literary translations</li>
+								<li>Strong analytical skills developed on linguistic, cultural, and intercultural levels through study of literature, linguistics, history, art, and cinema</li>
+								<li>Recommended for Post-graduate study in Visual Arts, Film, or Literature</li>
+								<li>Structured, methodical approach to tasks and deadline management</li>
+								<li>Found and ran a Book Club Society, heading the group as discussion leader</li>
+
+							</ul></p>
+
+							<p><strong>'A' Level, 'AS' Level</strong><br>
+							<em>Sleaford Joint Sixth Form Sep 2007 - Jul 2009</em>
+								<ul>
+									<li>'A' grade achieved in Maths, Spanish, French, and English Language at 'AS' and 'A' Level, 'A' grade in Critical Thinking at 'AS' Level (prior to introduction of A* grades)</li>
+								</ul>
+							</p>
+
+						<h3>Employment</h3>
+
+						<p><strong>Marketing and Social Media Assistant</strong><br>
+						<em><a href="http://www.bangandstrike.com" target="_blank">BANG+STRIKE</a> (Online retailer of men's underwear) Aug 2014 - Feb 2015</em>
+							<ul>
+								<li>Responsible for the site's numerous social channels, including Facebook, Twitter, Instagram, Pinterest, Tumblr, and Google+, and co-ordinating with the Marketing Manager and Creative Director to deliver the marketing strategy evenly</li>
+								<li>Monitored Google Analytics on a weekly basis for feedback on blog popularity, inbound links, and social media coverage. Also attended Google Analytics training</li>
+								<li>Researched and monitored competitors and the market, optimising social media and blogs to keep up with advances</li>
+								<li>Enacted A/B testing on Facebook posts to find the most successful content formula</li>
+								<li>Principal blog-writer, responsible for creation of interesting, creative, and SEO-friendly content on WordPress.</li>
+								<li>PR responsibilities including communicating with models and other public figures to create Q&amp;A posts, and outreach to key influencers to feature our content</li>
+
+							</ul>
+						</p>
+
+						<p><strong>Copywriter, Blogger, and Social Media Consultant</strong><br>
+						<em>Freelance work Sep 2014 - May 2015</em>
+						<ul>
+							<li>Took on a large project for <a href="http://www.amazon.co.uk/s/ref=bl_sl_s_ap_web_83450031?ie=UTF8&node=83450031&field-brandtextbin=UOW" target="_blank">Patchworks.co.uk</a> (digital agency) writing enticing and descriptive landing pages for prospective clients, creating hundreds of iterations of a similar product page for optimal SEO</li>
+							<li>Optimised Amazon listings for <a href="http://www.universityofwhatever.co.uk" target="_blank">University of Whatever</a> (loungewear retailer) and <a href="http://www.amazon.co.uk/s/ref=bl_sl_s_ap_web_83450031?ie=UTF8&node=83450031&field-brandtextbin=Oneskee">Oneskee</a> (all-in-one ski suit retailer) for traffic, exposure, and conversion with convincing copy and measured experimentation</li>
+							<li>Compiled and wrote justified and cogent finance applications, including business proposals, for University of Whatever, helping to secure funding for a new print studio</li>
+							<li>Began a blog series for University of Whatever and simple social media strategy to create an online presence for the budding brand</li>
+							<li>Edited and rewrote customer communication for <a href="http://www.hamptondean.co.uk/">Hampton Dean</a> chartered financial advisors according to their specification, making a complex subject intelligible for clients</li>
+						</ul></p>
+
+						<p><strong>Research Analyst Intern</strong><br>
+						<em><a href="http://www.mediameasurement.com">Media Measurement</a> (Social Media Analytics agency) May - July 2014</em>
+						<ul>
+							<li>Quickly learnt to use Salesforce's Radian6 social media monitoring tool, assisting on two team projects to produce reports for client Reckitt Benckiser within my first week</li>
+							<li>Analysed and critiqued effectiveness of social media campaigns for FMCG brands, gaining insight on customer/market usage of social platforms, and discovering opportunities for brand engagement for clients</li>
+							<li>Identified social media personas and how they interacted with the brand to advise the client on how to effectively engage different demographics</li>
+							<li>Acted independently to compile a list of recommendations for the improvement of the Radian6 software</li>
+							<li>Using Excel, converted raw data into revealing graphs and actionable insights in reports for clients, taking an active role in putting forward suggestions and discoveries</li>
+							<li>Planned and produced individual written snapshot reports for clients such as Unilever</li>
+							<li>Employed language and cultural skills in order to analyse data from global markets in Spanish, Italian, and French</li>
+						</ul></p>
+
+						<p>
+							<strong>Amazon Marketing Specialist</strong><br>
+							<em>UOW Limited (Online clothing brand) Aug 2013 - May 2014</em>
+							<ul>
+								<li>Personally doubled the brand's Amazon traffic through significant breakthroughs in understanding the algorithm</li>
+								<li>Regularly analysed sales, page views and conversion rates through weekly reports and the creation of a database, allowing the company to highlight problematic and successful listings</li>
+								<li>Managed Amazon listings - adding new products, pruning old ones, and optimising existing products through CSV imports to ensure continuity and performance across the European and American platforms</li>
+								<li>Responsible for all copywriting - the website, product descriptions, brand message - and communications with translators and web developers</li>
+							</ul>
+						</p>
+
+						<h3>Year Abroad</h3>
+
+						<p><strong>English camp language teacher</strong><br>
+						<em>Enforex (Spain) July - August 2011</em>
+						<ul>
+							<li>Communication and teamwork skills challenged by co-ordinating large groups of teenagers with other tutors unsupervised by seniors.</li>
+						</ul></p>
+
+						<p><strong>Erasmus programme</strong><br>
+						<em>University of Granada (Spain) Sep 2011 - Feb 2012</em>
+						<ul>
+							<li>Significant time spent living abroad - studying in a different language and culture and socialising with other students from across the world</li>
+						</ul></p>
+
+						<p><strong>English language assistant</strong><br>
+						<em>IIS Rolando da Piazzola (Italy) Apr - Jun 2012 </em>
+						<ul>
+							<li>Clear communication and creativity essential for engaging teenagers in language activities, both planned personally and by others.</li>
+						</ul></p>
+
+						<p><strong>Intensive advanced Italian language course</strong><br>
+						<em>Europass (Italy) Aug - Sep 2012</em>
+						<ul>
+							<li>Cultural awareness and linguistic skills expanded whilst living and studying in Florence</li>
+						</ul></p>
+
+						<h3>Skills &amp; Competencies</h3>
+
+						<p><strong>Languages:</strong> English (native), Spanish (fluent), Italian (fluent), French (good)</p>
+						<p>
+							<strong>Digital</strong>
+							<ul>
+								<li>Experienced in use of <strong>Magento</strong> and <strong>Amazon Seller Central</strong></li>
+								<li>Highly proficient in use of social media platforms <strong>Facebook</strong>, <strong>Twitter</strong>, <strong>Pinterest</strong>, <strong>Tumblr</strong>, <strong>Google+</strong>, <strong>YouTube</strong>, and social media management systems <strong>Hootsuite</strong> and <strong>Buffer</strong>. Well accustomed to use of <strong>WordPress</strong> for blogs</li>
+								<li>Experience and trained in use of <strong>Google analytics</strong>, and familiar with <strong>Google AdWords</strong>. Experienced in use of <strong>Radian6</strong> social media analytics.</li>
+								<li>Proficient use of <strong>Microsoft Excel</strong> and <strong>Word</strong>, and an understanding of databases</li>
+								<li>Self-taught beginner level understanding of web languages <strong>HTML5</strong> (including <strong>Bootstrap</strong>), <strong>CSS3</strong>, and <strong>JavaScript</strong> (including <strong>jQuery</strong>)</li>
+								<li>Self-confessed geek - I love teaching myself  new software and programming languages (like <strong>GameMaker Language</strong>) and, and am always keen to pick up new digital skills!</li>
+							</ul>
+						</p>
+						<p><strong>Driving license:</strong> Full UK Driving License</p>
+
 						</div>
 
 						<div id="content-contact">
 
-							<div class="page-header">
-								<h1 class="page-header-text" id="page-header-contact">contact</h1>
-							</div>
+							<h3>Contact</h3>
+							<p>Want to have a chat?</p>
 
-							<div class="page-content-p col-md-8">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium reprehenderit harum atque numquam nostrum, magnam, accusamus dolores quisquam voluptas? Vero consectetur, nisi minima consequuntur facere sed hic dolorum laboriosam.</p>
-							</div>
-							<div class="page-copy-img col-md-4"><img src="http://marmaladeoc.com/wp-content/uploads/2014/02/stack-of-papers-537x350.jpg" alt="image1"></div>
-							<div class="page-content-p col-md-8">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sit veniam magnam odio, voluptatem consectetur laudantium tempore. Explicabo dolorem, veniam facere sit eius architecto ipsam repudiandae consequatur reprehenderit a iste.</p>
-							</div>
-							<div class="page-copy-img col-md-4"><img src="http://marmaladeoc.com/wp-content/uploads/2014/02/stack-of-papers-537x350.jpg" alt="image2"></div>
+							<p><strong>Email:</strong> <a href="mailto:alee8648@gmail.com" target="_blank">alee8648@gmail.com</a></p>
+							<p>For more contact details, download my CV as a PDF here.</p>
+							<a href="adam-lee-curriculum-vitae21032015-writing.pdf" class="download-cv" download><span class="glyphicon glyphicon-download-alt"></span></a>
+
+
+
 						</div>
 					</div>
 					<div class="col-sm-2"></div>

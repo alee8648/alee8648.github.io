@@ -18,6 +18,17 @@ var main = function() {
 		};
 	});
 
+	$('#nav').affix({
+
+		offset: { 
+			top: $('#nav').offset().top 
+			}
+
+
+	});
+
+	$('#nav-wrapper').height($("#nav").height());
+	$('#nav').width($("#body-container").width());
 };
 
 $(document).ready(main);

@@ -91,7 +91,9 @@ a {
 }
 }*/
 
-.navbar { 
+.navbar {
+  z-index: 50;
+  overflow: hidden;
 
 }
 .navbar-default {
@@ -126,8 +128,21 @@ a {
 }
 
 
-.navbar-default .navbar-toggle .icon-bar {
+/*.navbar-default .navbar-toggle .icon-bar {
     background-color: red;
+}*/
+
+#nav.affix {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: rgba(210,254,251,0.9)
+}
+
+#nav-wrapper {
+/*  width: 100%;
+  margin-right: 0 !important;*/
+/*  background-color: rgba(0,251,232,0.2);*/
 }
 
 /*        Page header          */
@@ -231,6 +246,9 @@ h3 {
   display: none;
 }
 
+.download-cv {
+  font-size: 200%;
+}
 
 /*Images and insets*/
 
