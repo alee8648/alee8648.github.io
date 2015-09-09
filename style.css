@@ -239,15 +239,40 @@ h3 {
 
 #content-profile {
   display: block;
-
 }
 
 #content-portfolio, #content-process, #content-contact, #content-cv {
   display: none;
 }
 
+#content-contact p {
+  text-align: center;
+}
+
 .download-cv {
   font-size: 200%;
+  padding: 10px;
+  vertical-align: middle;
+
+}
+
+.download-text-contact {
+  text-align: left !important;
+  float: left !important;
+}
+
+.download-text {
+  text-align: right;
+  font-style: italic;
+  float: right;
+  margin: 0px;
+}
+
+
+
+.social-links {
+  font-size: 200%;
+  padding: 3px;
 }
 
 /*Images and insets*/
