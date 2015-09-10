@@ -267,6 +267,7 @@ h3 {
 .body-image img {
   border:3px #ff9399 solid;
   border-radius: 50%;
+  display: inline;
 }
 
 .body-image-inset {
