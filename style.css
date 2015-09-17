@@ -82,6 +82,7 @@ header > h1 {
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
   background-image: none;
+  background-color: #FBFFFF;
   border-bottom: none;
   box-shadow: 0 3px 9px;
 }
@@ -128,6 +129,7 @@ border-bottom: none;
 .navbar-collapse {
   border-top: none;
 }
+
 
 .scroll-to-top {
   font-size: 200%;
@@ -196,6 +198,12 @@ border-bottom: none;
   margin: auto;
 }
 
+@media (min-width: 768px) {
+  .inset-image {
+    padding-top: 70px;
+  }
+}
+
 
 
 /*        Content          */
@@ -224,6 +232,15 @@ h3 {
 
 
 /*        Content pages         */
+
+.intro-bubble {
+  background-color: rgba(204,254,251,0.2);
+  border-radius: 8px;
+  border: solid #B9EBEC 1px;
+  box-shadow: 0 3px 9px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
 
 
 
